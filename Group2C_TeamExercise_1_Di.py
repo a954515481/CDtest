@@ -1,29 +1,14 @@
-
+﻿我爱你 爱你  爱你  爱你
 def getStartNum():
     while True:
-        n=input("starting number: ")
+        n=input("starting num12132131r: ")
         if n.isdigit():
             n=int(n)
             if n<=0:
                 print("You are supposed to input a positive number")
             elif n>length:
-                print("You cannot input a number bigger than the length of your song")
-            else:
-                return n
-                break
-        else:
-            print("Please input a number")
 
-def getEndNum():
-    while True:
-        n=input("ending number: ")
-        if n.isdigit():
-            n=int(n)
-            if n<0:
-                print("You are supposed to input a positive number")
-            elif n>length:
-                print("You cannot input a number bigger than the length of your song")
-            else:
+
                 return n
                 break
         else:
