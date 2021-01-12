@@ -1,4 +1,4 @@
-"""Question1"""
+
 def getStartNum():
     while True:
         n=input("starting number: ")
